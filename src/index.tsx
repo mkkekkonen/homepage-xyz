@@ -1,6 +1,10 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import Hello from './components/Hello';
+import FrontPage from './pages/FrontPage';
 
-ReactDOM.render(<Hello />, document.getElementById('app'));
+import './assets/css/bootstrap.css';
+import './assets/css/bootstrap-grid.css';
+import './assets/css/bootstrap-reboot.css';
+
+ReactDOM.render(<FrontPage />, document.getElementById('app'));
