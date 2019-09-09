@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Instagram",
+    "url": "https://www.instagram.com/maijacodes/",
+    "iconName": [
+      "fab",
+      "instagram"
+    ]
+  },
+  {
+    "name": "Twitter",
+    "url": "https://twitter.com/mkkekkonen",
+    "iconName": [
+      "fab",
+      "twitter"
+    ]
+  },
+  {
+    "name": "GitHub",
+    "url": "https://github.com/mkkekkonen",
+    "iconName": [
+      "fab",
+      "github"
+    ]
+  }
+]
