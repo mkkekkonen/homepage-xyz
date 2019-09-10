@@ -15,7 +15,6 @@ const HeaderContainer = styled.div`
 const BodyContainer = styled.div`
   display: flex;
   min-height: 40rem;
-  padding: 1rem;
 `
 
 const FooterContainer = styled.div`
@@ -30,6 +29,7 @@ interface Props {
   body: React.ReactNode
   sidebar: React.ReactNode
   footer: React.ReactNode
+  showSidebar?: boolean
 }
 
 interface State {}
@@ -43,7 +43,7 @@ export default class BasicTemplate extends React.Component<Props, State> {
   }
 
   render() {
-    const { header, body, sidebar, footer } = this.props;
+    const { header, body, sidebar, footer, showSidebar } = this.props;
 
     return (
       <Container>
@@ -61,18 +61,20 @@ export default class BasicTemplate extends React.Component<Props, State> {
         <Row>
           <Col
             lg={9}
-            xl={{ span: 8, offset: 1 }}
+            xl={{ span: showSidebar ? 8 : 10, offset: 1 }}
           >
             <BodyContainer>
               {body}
             </BodyContainer>
           </Col>
-          <Col
-            lg={3}
-            xl={{ span: 2 }}
-          >
-            {sidebar}
-          </Col>
+          {showSidebar && (
+            <Col
+              lg={3}
+              xl={{ span: 2 }}
+            >
+              {sidebar}
+            </Col>
+          )}
         </Row>
 
         <Row>

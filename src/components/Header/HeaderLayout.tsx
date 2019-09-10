@@ -25,11 +25,12 @@ const SocialLinkContainer = styled.div`
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
-  width: 9rem;
+  width: 10.8rem;
 `
 
 const SocialIcon = styled(FontAwesomeIcon)`
   font-size: 3rem;
+  margin: 0.3rem;
 `
 
 interface SocialProps {

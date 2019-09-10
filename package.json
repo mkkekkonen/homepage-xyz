@@ -5,6 +5,7 @@
   "main": "src/index.tsx",
   "scripts": {
     "start": "webpack-dev-server --port 8000",
+    "build": "webpack",
     "test": "jest",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
@@ -25,6 +26,7 @@
     "file-loader": "^4.2.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^3.1.0",
     "react-docgen-typescript-loader": "^3.2.0",
     "source-map-loader": "^0.2.4",
     "style-loader": "^1.0.0",
@@ -45,6 +47,7 @@
     "react": "^16.8.6",
     "react-bootstrap": "^1.0.0-beta.12",
     "react-dom": "^16.8.6",
+    "react-markdown": "^4.2.2",
     "styled-components": "^4.3.2"
   }
 }
