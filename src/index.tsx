@@ -2,7 +2,18 @@ import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faMobileAlt, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
+import {
+  faInstagram,
+  faTwitter,
+  faGithub,
+  faLinkedin,
+  faReact,
+  faJs,
+  faPython,
+  faMicrosoft,
+  faJava,
+} from '@fortawesome/free-brands-svg-icons';
 
 import FrontPage from './pages/FrontPage';
 
@@ -12,6 +23,18 @@ import './assets/css/bootstrap-reboot.css';
 
 import './assets/css/global.css';
 
-library.add(faInstagram, faTwitter, faGithub);
+library.add(
+  faMobileAlt,
+  faGlobeEurope,
+  faInstagram,
+  faTwitter,
+  faGithub,
+  faLinkedin,
+  faReact,
+  faJs,
+  faPython,
+  faMicrosoft,
+  faJava,
+);
 
 ReactDOM.render(<FrontPage />, document.getElementById('app'));

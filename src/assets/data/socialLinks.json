@@ -2,23 +2,23 @@
   {
     "name": "Instagram",
     "url": "https://www.instagram.com/maijacodes/",
-    "iconName": [
+    "iconProp": [
       "fab",
       "instagram"
     ]
   },
   {
     "name": "Twitter",
-    "url": "https://twitter.com/mkkekkonen",
-    "iconName": [
+    "url": "https://fi.linkedin.com/in/mkkekkonen",
+    "iconProp": [
       "fab",
-      "twitter"
+      "linkedin"
     ]
   },
   {
     "name": "GitHub",
     "url": "https://github.com/mkkekkonen",
-    "iconName": [
+    "iconProp": [
       "fab",
       "github"
     ]

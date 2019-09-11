@@ -40,7 +40,7 @@ interface SocialProps {
 const SocialLink = ({ data, ...props }: SocialProps) => {
   return (
     <a href={data.url} title={data.name}>
-      <SocialIcon icon={data.iconName} {...props} />
+      <SocialIcon icon={data.iconProp} {...props} />
     </a>
   )
 }

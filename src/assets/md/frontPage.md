@@ -1,4 +1,4 @@
-<img src="https://avatars0.githubusercontent.com/u/26285265?s=460&v=4" width="250" style="float: left; padding: 0 2rem 1rem 0" />
+<img src="maija.png" width="250" style="float: left; padding: 0 2rem 1rem 0" />
 
 I'm Maija Kekkonen, a software engineer and a web/mobile developer from Finland. I have experience in developing single page web apps and browser-based/hybrid mobile applications.
 

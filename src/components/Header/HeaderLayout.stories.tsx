@@ -11,22 +11,22 @@ storiesOf('Header', module)
       {
         name: 'Instagram',
         url: '#',
-        iconName: ['fab', 'instagram']
+        iconProp: ['fab', 'instagram']
       },
       {
         name: 'Twitter',
         url: '#',
-        iconName: ['fab', 'twitter']
+        iconProp: ['fab', 'twitter']
       },
       {
         name: 'GitHub',
         url: '#',
-        iconName: ['fab', 'github']
+        iconProp: ['fab', 'github']
       },
       {
         name: 'Facebook',
         url: '#',
-        iconName: ['fab', 'facebook']
+        iconProp: ['fab', 'facebook']
       }
     ]
 
