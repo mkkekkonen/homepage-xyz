@@ -4,8 +4,13 @@ import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import CursiveHeading from '../CursiveHeading';
+import Navbar, { LinkData } from '../Navbar';
 
 import { SocialLinkData } from './HeaderView';
+
+const OuterContainer = styled.div`
+  width: 100%;
+`
 
 const HeaderContainer = styled.div`
   background-color: #a1c657;
@@ -14,7 +19,6 @@ const HeaderContainer = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 1.5rem;
-  width: 100%;
 `;
 
 const SocialLinkContainer = styled.div`
@@ -51,23 +55,27 @@ interface Props {
   title: string
   subtitle: string
   socialLinks: SocialLinkData[]
+  navLinks: LinkData[]
 }
 
 export default class HeaderLayout extends React.Component<Props> {
   render() {
-    const { title, subtitle, socialLinks } = this.props;
+    const { title, subtitle, socialLinks, navLinks } = this.props;
 
     return (
-      <HeaderContainer>
-        <div>
-          <CursiveHeading>{title}</CursiveHeading>
-          <Subtitle>{subtitle}</Subtitle>
-        </div>
+      <OuterContainer>
+        <HeaderContainer>
+          <div>
+            <CursiveHeading>{title}</CursiveHeading>
+            <Subtitle>{subtitle}</Subtitle>
+          </div>
 
-        <SocialLinkContainer>
-          {socialLinks.map(socialLink => <SocialLink data={socialLink} />)}
-        </SocialLinkContainer>
-      </HeaderContainer>
+          <SocialLinkContainer>
+            {socialLinks.map(socialLink => <SocialLink key={socialLink.name} data={socialLink} />)}
+          </SocialLinkContainer>
+        </HeaderContainer>
+        <Navbar links={navLinks} />
+      </OuterContainer>
     );
   }
 }

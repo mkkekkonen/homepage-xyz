@@ -1,6 +1,8 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faMobileAlt, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
 import {
@@ -16,6 +18,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 
 import FrontPage from './pages/FrontPage';
+import CvPage from './pages/CvPage';
 
 import './assets/css/bootstrap.css';
 import './assets/css/bootstrap-grid.css';
@@ -37,4 +40,15 @@ library.add(
   faJava,
 );
 
-ReactDOM.render(<FrontPage />, document.getElementById('app'));
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <Route path="/" exact component={FrontPage} />
+        <Route path="/cv/" component={CvPage} />
+      </Router>
+    )
+  }
+}
+
+ReactDOM.render(<App />, document.getElementById('app'));
