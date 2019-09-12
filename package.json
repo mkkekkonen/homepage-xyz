@@ -11,7 +11,7 @@
     "build-storybook": "build-storybook"
   },
   "author": "Maija Kekkonen",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@storybook/addon-actions": "^5.1.11",

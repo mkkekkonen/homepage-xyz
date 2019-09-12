@@ -10,18 +10,13 @@ const BodyContainer = styled.div`
   text-align: justify;
 `
 
-const Subheading = styled.h3`
-  padding: 2rem;
-  text-align: center;
-`
-
 export default class FrontPageBody extends React.Component {
   render() {
     return (
       <BodyContainer>
         <Markdown markdownFileName="frontPage" />
-
-        <Subheading>Core Competences</Subheading>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+        <h3>Core Competencies</h3>
         <TechnologyGrid />
       </BodyContainer>
     );

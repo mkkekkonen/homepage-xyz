@@ -2,7 +2,7 @@
 
 I'm Maija Kekkonen, a software engineer and a web/mobile developer from Finland. I have experience in developing single page web apps and browser-based/hybrid mobile applications.
 
-React is the technology I'm most familiar with. I have experience is backend development too, technologies being ASP.NET and Django.
+React is the technology I'm most familiar with. I have experience in backend development too, technologies being ASP.NET and Django.
 
 Before choosing information technology as my career I studied agriculture and equine (horse) industry. This brings multi-disciplinary knowledge to my skill set.
 

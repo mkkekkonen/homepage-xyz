@@ -6,4 +6,10 @@ body {
 
 a:link, a:visited {
   color: inherit;
+  text-decoration: underline;
+}
+
+h3 {
+  padding: 2rem;
+  text-align: center;
 }

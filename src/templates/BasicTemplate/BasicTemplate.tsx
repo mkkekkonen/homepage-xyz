@@ -18,10 +18,7 @@ const BodyContainer = styled.div`
 `
 
 const FooterContainer = styled.div`
-  display: flex;
-  align-items: center;
   min-height: 50px;
-  padding: 1rem;
 `
 
 interface Props {

@@ -15,9 +15,6 @@ const HeaderContainer = styled.div`
   justify-content: space-between;
   padding: 1.5rem;
   width: 100%;
-  & h3 {
-    font-weight: 100;
-  }
 `;
 
 const SocialLinkContainer = styled.div`
@@ -31,6 +28,11 @@ const SocialLinkContainer = styled.div`
 const SocialIcon = styled(FontAwesomeIcon)`
   font-size: 3rem;
   margin: 0.3rem;
+`
+
+const Subtitle = styled.h3`
+  padding: 0;
+  text-align: left;
 `
 
 interface SocialProps {
@@ -59,7 +61,7 @@ export default class HeaderLayout extends React.Component<Props> {
       <HeaderContainer>
         <div>
           <CursiveHeading>{title}</CursiveHeading>
-          <h3>{subtitle}</h3>
+          <Subtitle>{subtitle}</Subtitle>
         </div>
 
         <SocialLinkContainer>
