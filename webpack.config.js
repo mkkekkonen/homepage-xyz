@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const path = require('path');
 
 module.exports = {
   entry: './src/index.tsx',
@@ -12,7 +13,7 @@ module.exports = {
 
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: [".ts", ".tsx", ".js", ".json"]
+    extensions: [".ts", ".tsx", ".js", ".json"],
   },
 
   module: {
@@ -28,7 +29,28 @@ module.exports = {
       },
 
       // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-      { enforce: "pre", test: /\.js$/, loader: "source-map-loader" }
+      {
+        enforce: "pre",
+        test: /\.js$/,
+        loader: "source-map-loader",
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      },
+      {
+        test: /\.md$/,
+        use: 'raw-loader',
+      },
+      {
+        test: /\.(ttf|eot|woff|woff2|svg)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "fonts/[name].[ext]",
+          }
+        }
+      }
     ]
   },
 
@@ -38,4 +60,8 @@ module.exports = {
       filename: './index.html',
     }),
   ],
+
+  devServer: {
+    contentBase: path.join(__dirname, 'public'),
+  },
 };

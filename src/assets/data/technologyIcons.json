@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Mobile Development",
+    "iconProp": "mobile-alt"
+  },
+  {
+    "name": "Web Development",
+    "iconProp": "globe-europe"
+  },
+  {
+    "name": "React",
+    "iconProp": [
+      "fab",
+      "react"
+    ]
+  },
+  {
+    "name": "JavaScript",
+    "iconProp": [
+      "fab",
+      "js"
+    ]
+  },
+  {
+    "name": "Django",
+    "iconProp": [
+      "fab",
+      "python"
+    ]
+  },
+  {
+    "name": "Python",
+    "iconProp": [
+      "fab",
+      "python"
+    ]
+  },
+  {
+    "name": "ASP.NET",
+    "iconProp": [
+      "fab",
+      "microsoft"
+    ]
+  },
+  {
+    "name": "C#",
+    "iconProp": [
+      "fab",
+      "microsoft"
+    ]
+  },
+  {
+    "name": "Java",
+    "iconProp": [
+      "fab",
+      "java"
+    ]
+  }
+]
