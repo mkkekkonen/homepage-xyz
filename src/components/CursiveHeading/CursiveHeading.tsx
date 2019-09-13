@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const Heading = styled.h2`
   font-family: 'Beth Ellen', cursive;
+  padding-top: 0;
 `
 
 interface Props {
