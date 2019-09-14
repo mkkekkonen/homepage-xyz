@@ -6,5 +6,9 @@
   {
     "name": "CV",
     "to": "/cv/"
+  },
+  {
+    "name": "Portfolio",
+    "to": "/portfolio/"
   }
 ]

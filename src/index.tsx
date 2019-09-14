@@ -19,6 +19,7 @@ import {
 
 import FrontPage from './pages/FrontPage';
 import CvPage from './pages/CvPage';
+import PortfolioPage from './pages/PortfolioPage';
 
 import './assets/css/bootstrap.css';
 import './assets/css/bootstrap-grid.css';
@@ -46,6 +47,7 @@ class App extends React.Component {
       <Router>
         <Route path="/" exact component={FrontPage} />
         <Route path="/cv/" component={CvPage} />
+        <Route path="/portfolio/" component={PortfolioPage} />
       </Router>
     )
   }
