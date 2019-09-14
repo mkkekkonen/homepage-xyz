@@ -1,7 +1,7 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faMobileAlt, faGlobeEurope } from '@fortawesome/free-solid-svg-icons';
