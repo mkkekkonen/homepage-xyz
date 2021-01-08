@@ -57,7 +57,7 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: process.env.NODE_ENV === 'production' ? './src/index.html' : './src/dev.html',
       filename: './index.html',
     }),
   ],
