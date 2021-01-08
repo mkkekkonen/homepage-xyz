@@ -17,6 +17,7 @@ export default class FrontPageBody extends React.Component {
         <Markdown markdownFileName="frontPage" />
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
         <h3>Core Competencies</h3>
+
         <TechnologyGrid />
       </BodyContainer>
     );

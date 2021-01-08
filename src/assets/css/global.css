@@ -4,7 +4,7 @@ body {
   font-size: 1.3rem;
 }
 
-a:link, a:visited {
+a:not(.btn):link, a:not(.btn):visited {
   color: inherit;
   text-decoration: underline;
 }
