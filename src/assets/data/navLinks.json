@@ -8,6 +8,10 @@
     "to": "/cv/"
   },
   {
+    "name": "Skills",
+    "to": "/skills/"
+  },
+  {
     "name": "Portfolio",
     "to": "/portfolio/"
   }

@@ -18,6 +18,7 @@ const techs = [
 storiesOf('TechnologyEntry', module)
   .add('default', () => (
     <TechnologyEntry
+      categoryName="JavaScript"
       iconProp={['fab', 'js']}
       techs={techs}
     />

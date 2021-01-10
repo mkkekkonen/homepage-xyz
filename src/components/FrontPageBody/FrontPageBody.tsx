@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 import Markdown from '../Markdown';
-import TechnologyGrid from '../TehcnologyGrid';
+import TechnologyGrid from '../TechnologyGrid';
 
 const BodyContainer = styled.div`
   background-color: #fff;

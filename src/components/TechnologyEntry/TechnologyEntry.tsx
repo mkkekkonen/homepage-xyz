@@ -7,7 +7,7 @@ import { IconName, IconProp } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Container = styled.div`
-  max-width: 767px;
+  /* max-width: 767px; */
   padding: 1.5em;
   position: relative;
 `;
@@ -18,7 +18,7 @@ const InnerContainer = styled.div`
 `;
 
 const Bubble = styled.span`
-  background-color: #fff;
+  background-color: #BEEC62;
   border: 2px solid #070;
   border-radius: 100%;
   display: inline-flex;
@@ -37,7 +37,7 @@ const Icon = styled(FontAwesomeIcon)`
 `;
 
 const TitleContainer = styled.div`
-  background-color: #fff;
+  background-color: #BEEC62;
   border-bottom: 2px solid #070;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
@@ -65,19 +65,20 @@ const ButtonIcon = styled(FontAwesomeIcon)`
   font-size: 12px;
 `;
 
-interface TechDefinition {
+export interface TechDefinition {
   name: string
   link: string
 }
 
 interface Props {
+  categoryName: string
   iconProp: IconName | IconProp
   techs: TechDefinition[]
 }
 
 export default class TechnologyEntry extends React.Component<Props> {
   render() {
-    const { iconProp, techs } = this.props;
+    const { categoryName, iconProp, techs } = this.props;
 
     return (
       <Container>
@@ -87,7 +88,7 @@ export default class TechnologyEntry extends React.Component<Props> {
 
         <InnerContainer>
           <TitleContainer>
-            <Title>JavaScript</Title>
+            <Title>{categoryName}</Title>
           </TitleContainer>
 
           <TechContainer>
@@ -97,7 +98,7 @@ export default class TechnologyEntry extends React.Component<Props> {
                 href={tech.link}
               >
                 {tech.name}
-                <ButtonIcon icon={['fas', 'external-link-alt']} />
+                {tech.link && <ButtonIcon icon={['fas', 'external-link-alt']} />}
               </Button>
             ))}
           </TechContainer>

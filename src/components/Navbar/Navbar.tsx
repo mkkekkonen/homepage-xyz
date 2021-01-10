@@ -9,7 +9,7 @@ const NavbarContainer = styled.div`
   display: flex;
   justify-content: center;
   color: #fff;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   & a:link, & a:visited {
     text-decoration: none;
   }

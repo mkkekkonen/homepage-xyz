@@ -6,8 +6,8 @@
 Software Developer <br/>
 Feb 2019 - present
 
-- Developing a solution for storing receipts and documents in the cloud
-- React, JavaScript, MySQL
+- Developing a web solution for storing receipts and documents in the cloud
+- React, JavaScript, Python, Django, MySQL
 
 **Eatech Oy** <br/>
 Software Designer <br/>

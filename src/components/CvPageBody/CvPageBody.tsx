@@ -9,7 +9,8 @@ const BodyContainer = styled.div`
   padding: 1rem;
   text-align: justify;
   width: 100%;
-`
+`;
+
 export default class CvPageBody extends React.Component {
   render() {
     return (
