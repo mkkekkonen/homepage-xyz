@@ -30,6 +30,7 @@ export default class TechnologyGridLayout extends React.Component<Props> {
         <GridWrapper>
           {iconData.map(data => (
             <TechnologyIcon
+              key={data.name}
               name={data.name}
               iconProp={data.iconProp}
             />

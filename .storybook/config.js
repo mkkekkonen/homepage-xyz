@@ -7,7 +7,11 @@ import {
   faGithub,
   faFacebook,
   faReact,
+  faJs,
 } from '@fortawesome/free-brands-svg-icons';
+import {
+  faExternalLinkAlt,
+} from '@fortawesome/free-solid-svg-icons';
 
 import '../src/assets/css/bootstrap.css';
 import '../src/assets/css/bootstrap-grid.css';
@@ -21,6 +25,8 @@ library.add(
   faGithub,
   faFacebook,
   faReact,
+  faJs,
+  faExternalLinkAlt,
 );
 
 // automatically import all files ending in *.stories.js

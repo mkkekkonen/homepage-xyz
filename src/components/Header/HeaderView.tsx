@@ -5,6 +5,7 @@ import { IconName, IconProp } from '@fortawesome/fontawesome-svg-core';
 import HeaderLayout from './HeaderLayout';
 
 import socialLinks from '../../assets/data/socialLinks.json';
+import navLinks from '../../assets/data/navLinks.json';
 
 export interface SocialLinkData {
   name: string
@@ -19,6 +20,7 @@ export default class HeaderView extends React.Component {
         title="Maija Kekkonen"
         subtitle="Software Engineer"
         socialLinks={socialLinks as SocialLinkData[]}
+        navLinks={navLinks}
       />
     );
   }

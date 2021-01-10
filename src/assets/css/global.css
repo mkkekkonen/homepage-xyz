@@ -4,9 +4,14 @@ body {
   font-size: 1.3rem;
 }
 
-a:link, a:visited {
+a:not(.btn):link, a:not(.btn):visited {
   color: inherit;
   text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 2rem;
 }
 
 h3 {

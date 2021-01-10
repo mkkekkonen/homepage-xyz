@@ -1,0 +1,258 @@
+[
+  {
+    "categoryName": "JavaScript",
+    "iconProp": ["fab", "js"],
+    "techs": [
+      {
+        "name": "TypeScript",
+        "link": "https://www.typescriptlang.org/"
+      },
+      {
+        "name": "React",
+        "link": "https://reactjs.org/"
+      },
+      {
+        "name": "Redux",
+        "link": "https://redux.js.org/"
+      },
+      {
+        "name": "Angular",
+        "link": "https://angular.io/"
+      },
+      {
+        "name": "Node.js",
+        "link": "https://nodejs.org/en/"
+      },
+      {
+        "name": "Express",
+        "link": "https://expressjs.com/"
+      }
+    ]
+  },
+  {
+    "categoryName": ".NET",
+    "iconProp": ["fab", "microsoft"],
+    "techs": [
+      {
+        "name": "C#"
+      },
+      {
+        "name": "VB.NET"
+      },
+      {
+        "name": "ASP.NET Web Forms",
+        "link": "https://dotnet.microsoft.com/apps/aspnet/web-forms"
+      },
+      {
+        "name": "ASP.NET MVC",
+        "link": "https://dotnet.microsoft.com/apps/aspnet/mvc"
+      },
+      {
+        "name": "ASP.NET Web API",
+        "link": "https://dotnet.microsoft.com/apps/aspnet/apis"
+      },
+      {
+        "name": "SignalR",
+        "link": "https://dotnet.microsoft.com/apps/aspnet/signalr"
+      },
+      {
+        "name": "Windows Forms",
+        "link": "https://docs.microsoft.com/en-us/dotnet/desktop/winforms/?view=netdesktop-5.0"
+      }
+    ]
+  },
+  {
+    "categoryName": "Python",
+    "iconProp": ["fab", "python"],
+    "techs": [
+      {
+        "name": "Django",
+        "link": "https://www.djangoproject.com/"
+      }
+    ]
+  },
+  {
+    "categoryName": "Java",
+    "iconProp": ["fab", "java"],
+    "techs": [
+      {
+        "name": "JSP",
+        "link": "https://www.oracle.com/java/technologies/jspt.html"
+      },
+      {
+        "name": "Google Web Toolkit",
+        "link": "http://www.gwtproject.org/"
+      }
+    ]
+  },
+  {
+    "categoryName": "PHP",
+    "iconProp": ["fab", "php"],
+    "techs": [
+      {
+        "name": "Laravel",
+        "link": "https://laravel.com/"
+      },
+      {
+        "name": "WordPress",
+        "link": "https://wordpress.com/"
+      },
+      {
+        "name": "Concrete5",
+        "link": "https://www.concrete5.org/"
+      }
+    ]
+  },
+  {
+    "categoryName": "Web",
+    "iconProp": ["fas", "code"],
+    "techs": [
+      {
+        "name": "HTML5"
+      },
+      {
+        "name": "CSS3"
+      },
+      {
+        "name": "Bootstrap",
+        "link": "https://getbootstrap.com/"
+      },
+      {
+        "name": "Foundation",
+        "link": "https://get.foundation/"
+      }
+    ]
+  },
+  {
+    "categoryName": "Databases",
+    "iconProp": ["fas", "database"],
+    "techs": [
+      {
+        "name": "MySQL",
+        "link": "https://www.mysql.com/"
+      },
+      {
+        "name": "PostgreSQL",
+        "link": "https://www.postgresql.org/"
+      },
+      {
+        "name": "MS SQL Server",
+        "link": "https://www.microsoft.com/fi-fi/sql-server/sql-server-2019"
+      },
+      {
+        "name": "SQLite",
+        "link": "https://www.sqlite.org/index.html"
+      },
+      {
+        "name": "TypeORM",
+        "link": "https://typeorm.io/#/"
+      },
+      {
+        "name": "Sequelize",
+        "link": "https://sequelize.org/"
+      },
+      {
+        "name": "Entity Framework",
+        "link": "https://docs.microsoft.com/en-us/ef/core/"
+      },
+      {
+        "name": "Hibernate",
+        "link": "https://hibernate.org/"
+      }
+    ]
+  },
+  {
+    "categoryName": "Mobile",
+    "iconProp": ["fas", "mobile-alt"],
+    "techs": [
+      {
+        "name": "Ionic Framework",
+        "link": "https://ionicframework.com/"
+      },
+      {
+        "name": "Cordova",
+        "link": "https://cordova.apache.org/"
+      },
+      {
+        "name": "Xamarin",
+        "link": "https://dotnet.microsoft.com/apps/xamarin"
+      }
+    ]
+  },
+  {
+    "categoryName": "Testing",
+    "iconProp": ["fas", "flask"],
+    "techs": [
+      {
+        "name": "Jest",
+        "link": "https://jestjs.io/"
+      },
+      {
+        "name": "Cypress",
+        "link": "https://www.cypress.io/"
+      }
+    ]
+  },
+  {
+    "categoryName": "Game Development",
+    "iconProp": ["fas", "gamepad"],
+    "techs": [
+      {
+        "name": "Unity",
+        "link": "https://unity.com/"
+      },
+      {
+        "name": "MonoGame",
+        "link": "https://www.monogame.net/"
+      },
+      {
+        "name": "libGDX",
+        "link": "https://libgdx.badlogicgames.com/"
+      },
+      {
+        "name": "SDL",
+        "link": "https://www.libsdl.org/"
+      },
+      {
+        "name": "pygame",
+        "link": "https://www.pygame.org/"
+      }
+    ]
+  },
+  {
+    "categoryName": "Graphics",
+    "iconProp": ["fas", "cubes"],
+    "techs": [
+      {
+        "name": "OpenGL",
+        "link": "https://www.opengl.org/"
+      },
+      {
+        "name": "HTML Canvas",
+        "link": "https://www.w3.org/TR/2dcontext2/"
+      },
+      {
+        "name": "Three.js",
+        "link": "https://threejs.org/"
+      },
+      {
+        "name": "Konva.js",
+        "link": "https://konvajs.org/"
+      }
+    ]
+  },
+  {
+    "categoryName": "DevOps",
+    "iconProp": ["fas", "code-branch"],
+    "techs": [
+      {
+        "name": "Chef",
+        "link": "https://www.chef.io/"
+      },
+      {
+        "name": "GitHub",
+        "link": "https://github.com/"
+      }
+    ]
+  }
+]

@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import { IconName, IconProp } from '@fortawesome/fontawesome-svg-core';
 
 const IconContainer = styled.div`

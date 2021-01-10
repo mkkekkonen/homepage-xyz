@@ -2,6 +2,8 @@ import React from 'react';
 
 import { storiesOf } from '@storybook/react';
 
+import { BrowserRouter as Router } from 'react-router-dom';
+
 import HeaderLayout from './HeaderLayout';
 import { SocialLinkData } from './HeaderView'
 
@@ -30,11 +32,25 @@ storiesOf('Header', module)
       }
     ]
 
+    const navLinks = [
+      {
+        name: 'Home',
+        to: '/',
+      },
+      {
+        name: 'CV',
+        to: '/cv/'
+      }
+    ];
+
     return (
-      <HeaderLayout
-        title="Maija Kekkonen"
-        subtitle="Software Engineer"
-        socialLinks={socialLinks}
-      />
+      <Router>
+        <HeaderLayout
+          title="Maija Kekkonen"
+          subtitle="Software Engineer"
+          socialLinks={socialLinks}
+          navLinks={navLinks}
+        />
+      </Router>
     );
   });

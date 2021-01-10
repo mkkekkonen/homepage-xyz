@@ -5,7 +5,8 @@ module.exports = {
   entry: './src/index.tsx',
   output: {
     filename: "bundle.js",
-    path: __dirname + "/dist"
+    path: __dirname + "/dist",
+    publicPath: '/',
   },
 
   // Enable sourcemaps for debugging webpack's output.
@@ -56,12 +57,13 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/index.html',
+      template: process.env.NODE_ENV === 'production' ? './src/index.html' : './src/dev.html',
       filename: './index.html',
     }),
   ],
 
   devServer: {
     contentBase: path.join(__dirname, 'public'),
+    historyApiFallback: true,
   },
 };
