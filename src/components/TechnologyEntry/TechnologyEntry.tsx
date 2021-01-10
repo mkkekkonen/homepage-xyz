@@ -13,13 +13,15 @@ const Container = styled.div`
 `;
 
 const InnerContainer = styled.div`
-  border: 2px solid #070;
+  /* border: 2px solid #070; */
   border-radius: 10px;
 `;
 
 const Bubble = styled.span`
-  background-color: #BEEC62;
-  border: 2px solid #070;
+  /* background-color: #BEEC62; */
+  background-color: #fff;
+  /* border: 2px solid #070; */
+  border: 1px solid #444;
   border-radius: 100%;
   display: inline-flex;
   align-items: center;
@@ -33,18 +35,21 @@ const Bubble = styled.span`
 
 const Icon = styled(FontAwesomeIcon)`
   font-size: 50px;
-  color: #070;
+  /* color: #070; */
+  color: #444;
 `;
 
 const TitleContainer = styled.div`
-  background-color: #BEEC62;
-  border-bottom: 2px solid #070;
+  /* background-color: #BEEC62; */
+  background-color: #444;
+  /* border-bottom: 2px solid #070; */
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
 `;
 
 const Title = styled.h3`
-  color: #070;
+  /* color: #070; */
+  color: #fff;
   font-family: Viga, sans-serif;
   margin: 0;
   padding: 1rem;
@@ -53,6 +58,9 @@ const Title = styled.h3`
 `;
 
 const TechContainer = styled.div`
+  background-color: #CDF087;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
   padding: 1.5rem;
 
   & > * {
