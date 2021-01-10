@@ -4,6 +4,10 @@
     "iconProp": ["fab", "js"],
     "techs": [
       {
+        "name": "TypeScript",
+        "link": "https://www.typescriptlang.org/"
+      },
+      {
         "name": "React",
         "link": "https://reactjs.org/"
       },
@@ -42,6 +46,10 @@
       {
         "name": "ASP.NET MVC",
         "link": "https://dotnet.microsoft.com/apps/aspnet/mvc"
+      },
+      {
+        "name": "ASP.NET Web API",
+        "link": "https://dotnet.microsoft.com/apps/aspnet/apis"
       },
       {
         "name": "SignalR",
@@ -164,6 +172,10 @@
       {
         "name": "Cordova",
         "link": "https://cordova.apache.org/"
+      },
+      {
+        "name": "Xamarin",
+        "link": "https://dotnet.microsoft.com/apps/xamarin"
       }
     ]
   },
