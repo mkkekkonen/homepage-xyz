@@ -61,6 +61,8 @@ const TechContainer = styled.div`
   background-color: #CDF087;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
+  display: flex;
+  flex-wrap: wrap;
   padding: 1.5rem;
 
   & > * {
